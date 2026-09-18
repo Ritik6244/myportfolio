@@ -70,7 +70,7 @@ export default function TicTacToe() {
       <div className="ambient ambient-one" />
       <div className="ambient ambient-two" />
       <header>
-        <a className="brand" href="#top" aria-label="Playful home"><span className="brand-mark">R</span><span>playful</span></a>
+        <a className="brand" href="#top" aria-label="Playful home"><span className="brand-mark">R</span></a>
         <div className="round-pill"><span className="pulse" /> ROUND {round} <span className="round-divider" /> BEST OF FUN</div>
         <button className="new-game" onClick={newGame}><RotateCcw size={16} /> New game</button>
       </header>
